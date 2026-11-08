@@ -1,7 +1,7 @@
 {
   "name": "blofin-vol-ws",
   "version": "1.0.0",
-  "description": "Theo dõi vol 24h perp BloFin qua WebSocket",
+  "description": "Audit BloFin perpetual 24h volume against the public matched-trade stream",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

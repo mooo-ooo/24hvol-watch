@@ -12,6 +12,8 @@
   "csvFile": "data/vol24h.csv",
   "csvIntervalSec": 60,
   "stateFile": "data/latest.json",
+  "tradesFile": "data/trades.json",
+  "candleCheckIntervalSec": 300,
 
   "httpPort": 3088
 }
