@@ -1,0 +1,14 @@
+{
+  "name": "blofin-vol-ws",
+  "version": "1.0.0",
+  "description": "Theo dõi vol 24h perp BloFin qua WebSocket",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "pm2": "pm2 start ecosystem.config.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}

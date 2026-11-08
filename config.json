@@ -1,0 +1,17 @@
+{
+  "baseTokens": ["ONDO", "SOL"],
+  "quote": "USDT",
+
+  "wsUrl": "wss://openapi.blofin.com/ws/public",
+  "restUrl": "https://openapi.blofin.com",
+
+  "logIntervalSec": 30,
+  "alertPct": 20,
+  "alertWindowMin": 60,
+
+  "csvFile": "data/vol24h.csv",
+  "csvIntervalSec": 60,
+  "stateFile": "data/latest.json",
+
+  "httpPort": 3088
+}
